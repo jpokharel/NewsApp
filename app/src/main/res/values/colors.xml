@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="science">#4A7BA7</color>
+    <color name="technology">#04B4B3</color>
+    <color name="politics">#10CAC9</color>
+    <color name="society">#F5A623</color>
+    <color name="opinion">#FF7D50</color>
+    <color name="stage">#FC6644</color>
+    <color name="others">#E75F40</color>
+    <color name="title_text_color">#008AC3</color>
 </resources>

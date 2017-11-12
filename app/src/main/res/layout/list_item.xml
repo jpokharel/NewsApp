@@ -7,26 +7,25 @@
     android:padding="16dp">
 
     <TextView
+        android:id="@+id/description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textColor="#A1200C"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:text="This is the description of the story." />
+
+    <TextView
         android:id="@+id/title_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#008AC3"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        tools:text="This is the title of the news Story. We need to know that the tilte can also go
-        through more than one lines. " />
-
-    <TextView
-        android:id="@+id/description_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="monospace"
-        android:text="This is the description of the story."
-        android:textColor="#A1200C"
-        android:textSize="12sp"
-        android:textStyle="italic" />
+        android:textColor="@color/title_text_color"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"
+        tools:text="This is the title of the news Story" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,27 +33,18 @@
 
         <TextView
             android:id="@+id/section_text_view"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center_vertical|left"
-            android:text="Section" />
+            style="@style/mini_information"
+            tools:text="Section" />
 
         <TextView
             android:id="@+id/author_text_view"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center_vertical|left"
-            android:text="Jiwan Pokharel" />
+            style="@style/mini_information"
+            tools:text="Jiwan Pokharel" />
 
         <TextView
             android:id="@+id/published_date_text_view"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center_vertical|left"
-            android:text="20-12-2017" />
+            style="@style/mini_information"
+            tools:text="20-12-2017" />
     </LinearLayout>
 
 

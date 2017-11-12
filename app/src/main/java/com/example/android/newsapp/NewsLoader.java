@@ -19,7 +19,7 @@ public class NewsLoader extends AsyncTaskLoader<List<News>> {
 
     @Override
     public List<News> loadInBackground() {
-        if(this.url == null)
+        if (this.url == null)
             return null;
         return NewsAppUtils.fetchNewsData(url);
     }
